@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>SES Test</title>
+		<script type='javascript'>
+			function functionName(parameters) {
+			const a = document.createElement("a");
+			if (a.relList.supports("ar") == false) {
+			  alert("AR isn't supported");
+			}
+			}
+		</script>
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+	</head>
+	<body>
+		<h1>SES Tests</h1>
+		<!-- <div> -->
+			<!-- <h2>Model Viewer with GLTF</h2> -->
+			<!-- <model-viewer alt="A 3D model of an astronaut."  -->
+				<!-- src="./17573A-1001/6c79d850-762e-3244-9642-fd3955b37c69.gltf"  -->
+				<!-- ios-src="https://jayholliday.github.io/AR_Viewer_Test/17573A-1001/6c79d850-762e-3244-9642-fd3955b37c69.usdz"  -->
+				<!-- auto-rotate ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" camera-controls  -->
+				<!-- quick-look-browsers="safari chrome" style='width: 80%; height: 500px;'></model-viewer> -->
+		<!-- </div> -->
+		<div>
+			<h2>17573A-1001</h2>
+			<model-viewer 
+				src="./17573A-1001/6c79d850-762e-3244-9642-fd3955b37c69.glb" 
+				ios-src="https://jayholliday.github.io/AR_Viewer_Test/17573A-1001/6c79d850-762e-3244-9642-fd3955b37c69.usdz" 
+				auto-rotate ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" camera-controls 
+				quick-look-browsers="safari chrome" style='width: 80%; height: 500px;'></model-viewer>
+			<a href="https://jayholliday.github.io/AR_Viewer_Test/17573A-1001/6c79d850-762e-3244-9642-fd3955b37c69.usdz" rel="ar">
+				Load USDZ from anchor
+			</a> 
+		</div>
+			<h2>17573A-1001B</h2>
+			<model-viewer 
+				src="./17573A-1001B/6c79d850-762e-3244-9642-fd3955b37c69.glb" 
+				ios-src="https://jayholliday.github.io/AR_Viewer_Test/17573A-1001B/6c79d850-762e-3244-9642-fd3955b37c69.usdz" 
+				auto-rotate ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" camera-controls 
+				quick-look-browsers="safari chrome" style='width: 80%; height: 500px;'></model-viewer>
+			<a href="https://jayholliday.github.io/AR_Viewer_Test/17573A-1001B/6c79d850-762e-3244-9642-fd3955b37c69.usdz" rel="ar">
+				Load USDZ from anchor
+			</a> 
+		</div>
+		<div>
+			<h2>2268A-1200</h2>
+			<model-viewer 
+				src="./2268A-1200/f7eb089d-3763-3cdb-8b0e-9ed3e4f01a8b.glb" 
+				ios-src="https://jayholliday.github.io/AR_Viewer_Test/2268A-1200/f7eb089d-3763-3cdb-8b0e-9ed3e4f01a8b.usdz" 
+				auto-rotate ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" camera-controls 
+				quick-look-browsers="safari chrome" style='width: 80%; height: 500px;'></model-viewer>
+			<a href="https://jayholliday.github.io/AR_Viewer_Test/2268A-1200/f7eb089d-3763-3cdb-8b0e-9ed3e4f01a8b.usdz" rel="ar">
+				Load USDZ from anchor
+			</a> 
+		</div>
+		<div>
+			<h2>OUB-005-0-00</h2>
+			<model-viewer 
+				src="./OUB-005-0-00/281b65ad-f737-3ddc-8ff5-f9bcba547503.glb" 
+				ios-src="https://jayholliday.github.io/AR_Viewer_Test/OUB-005-0-00/281b65ad-f737-3ddc-8ff5-f9bcba547503.usdz" 
+				auto-rotate ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" camera-controls 
+				quick-look-browsers="safari chrome" style='width: 80%; height: 500px;'></model-viewer>
+			<a href="https://jayholliday.github.io/AR_Viewer_Test/OUB-005-0-00/281b65ad-f737-3ddc-8ff5-f9bcba547503.usdz" rel="ar">
+				Load USDZ from anchor
+			</a> 
+		</div>
+	</body>
+</html>
